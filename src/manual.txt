@@ -1,0 +1,13 @@
+
+Welcome to InspireAI ChatBot 🤖!
+In the following prompts, I'd generate ideas for you to whatever prompt you pass in...
+
+MANUAL!!
+1. Enter a query (e.g 'What new app should I build?')
+2. InspireAI chat bot generates 3 unique ideas for your query:
+    ○ 1. A meditation app with rewards.
+    ○ 2. Grocery delivery for special diets.
+    ○ 3. Subscription service for AI-generated art.
+3. You select 2 ideas by typing numbers (e.g '1 and 3')
+
+Let's roll 😎...

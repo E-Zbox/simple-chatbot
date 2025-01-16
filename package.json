@@ -1,0 +1,31 @@
+{
+  "name": "internshala-simple-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot that leverages AI to give users detailed ideas to their queries",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --trace-warnings",
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "ai-chatbot",
+    "\"idea",
+    "generation\""
+  ],
+  "author": "Ononogbu Ebenezer",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.6",
+    "dotenv": "^16.4.7",
+    "openai": "^4.78.1",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  }
+}

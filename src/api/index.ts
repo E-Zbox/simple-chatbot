@@ -1,4 +1,4 @@
-import { writeFileSync } from "fs";
+import { mkdirSync, writeFileSync } from "fs";
 import { OpenAI } from "openai";
 import { IResponse } from "./interface";
 import { join } from "path";
@@ -65,6 +65,8 @@ export const sendMessage = async (
     }
 
     // save generated content to logs directory for research and debugging purposes
+    mkdirSync("logs", { recursive: true });
+
     writeFileSync(
       join(
         __dirname,

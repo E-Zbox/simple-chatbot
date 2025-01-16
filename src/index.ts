@@ -126,8 +126,6 @@ async function main(printManual = true) {
     }
   }
 
-  console.log({ unlocked, userSelection });
-
   // 5. give detailed suggestion for each of the chosen ideas
   sendMessageResponse = await sendMessage(
     userSelection.join(", "),
